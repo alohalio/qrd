@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, label, p, span, div {
+    color: #e5ecf6 !important;
+}
+
+h1:hover, h1:focus,
+h2:hover, h2:focus,
+h3:hover, h3:focus{
+    cursor: context-menu !important;
+}
+
+pre{
+    color: #e5ecf6 !important;
+    padding: 20px;
+    white-space: pre-wrap;
+}
+
+pre:hover, pre:focus{
+    cursor: context-menu !important;
+}
+
+.Select-control, .Select-menu-outer, .Select-value, .Select-placeholder, .Select-input {
+    background-color: #222 !important;
+    color: #e5ecf6 !important;
+    border: 0px solid #333 !important;
+}
+
+.Select-control:hover, .Select-menu-outer:hover, .Select-value:hover, .Select-placeholder:hover, .Select-input:hover {
+    cursor: context-menu !important;
+}
+
+.Select-control:focus, .Select-menu-outer:focus, .Select-value:focus, .Select-placeholder:focus, .Select-input:focus {
+    cursor: context-menu !important;
+}
+
+.dropdown-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dropdown-row .Select,
+.dropdown-row .dash-dropdown,
+.dropdown-row .Select-control,
+.dropdown-row select {
+    width:100px;
+    background-color:#111111;
+    color:#e5ecf6;
+    padding-left:10px;
+    min-width:100px;
+    max-width:150px;
+}
+
+div.VirtualizedSelectOption:hover,
+div.VirtualizedSelectFocusedOption {
+    cursor: context-menu !important;
+}
+
+input, select, textarea {
+    background-color: #1a1a1a !important;
+    color: #e5ecf6 !important;
+    border: 0px solid #333 !important;
+}
+
+button {
+    background-color: #222 !important;
+    color: #e5ecf6 !important;
+    border: 0px solid #444 !important;
+}
+
+button:hover {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+hr {
+    border-color: #333;
+}
+
+a {
+    color: #00bfff;
+}
