@@ -2,7 +2,7 @@
 
 **The primary goal of this project is to demonstrate and illustrate research methodology in quant finance with the simple dashboard--not to generate robust alpha**
 
-[Landing Page](https://github.com/alohalio/qrd/blob/main/pics/landing_page.png)
+![Landing Page](https://github.com/alohalio/qrd/blob/main/pics/landing_page.png)
 
 ---
 
@@ -54,7 +54,7 @@ The project is organized into the following Python files:
 - **Statistical Overlays**: Draws horizontal dotted lines at the mean, mean ± 1 standard deviation, and mean ± 1.5 standard deviations.
 - **Interpretation**: This plot helps you quickly assess the distribution, volatility, and outlier behavior of the returns, providing context for strategy development and risk assessment.
 
-[Statistical Analysis](https://github.com/alohalio/qrd/blob/main/pics/stats_analysis.png)
+![Statistical Analysis](https://github.com/alohalio/qrd/blob/main/pics/stats_analysis.png)
 
 ---
 
@@ -65,7 +65,7 @@ The project is organized into the following Python files:
 - **Transaction Costs**: Default commission + slippage(adjustable).
 - **Benchmark**: Buy & hold equity curve for comparison.
 
-[Technical Analysis](https://github.com/alohalio/qrd/blob/main/pics/technical_analysis.png)
+![Technical Analysis](https://github.com/alohalio/qrd/blob/main/pics/technical_analysis.png)
 
 ---
 
@@ -73,7 +73,7 @@ The project is organized into the following Python files:
 
 Compare the different between benchmark and strategy performance
 
-[Equity Curve](https://github.com/alohalio/qrd/blob/main/pics/equity_curve.png)
+![Equity Curve](https://github.com/alohalio/qrd/blob/main/pics/equity_curve.png)
 
 ---
 
@@ -85,10 +85,10 @@ Compare the different between benchmark and strategy performance
 - **Visualization**: Overlays simulated paths with actual PnL for comparison.
 
 **Monte Carlo Normal Distribution**
-[Normal Distribution](https://github.com/alohalio/qrd/blob/main/pics/montecarlo_normal_distribution.png)
+![Normal Distribution](https://github.com/alohalio/qrd/blob/main/pics/montecarlo_normal_distribution.png)
 
 **Monte Carlo Levy Distribution**
-[Levy Distribution](https://github.com/alohalio/qrd/blob/main/pics/montecarlo_levy_distribution.png)
+![Levy Distribution](https://github.com/alohalio/qrd/blob/main/pics/montecarlo_levy_distribution.png)
 
 ---
 
@@ -98,7 +98,7 @@ Compare the different between benchmark and strategy performance
 - **Robustness Visualization:** Results are visualized as a 3D surface (using Plotly), helping to identify regions of parameter stability and avoid overfitting.
 - **Interpretation:** The heatmap or surface plot allows you to see which parameter sets lead to consistent outperformance and which are sensitive to small changes.
 
-[Sensitivity Analysis](https://github.com/alohalio/qrd/blob/main/pics/sensitivity_analysis.png)
+![Sensitivity Analysis](https://github.com/alohalio/qrd/blob/main/pics/sensitivity_analysis.png)
 
 ---
 
